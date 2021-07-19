@@ -1,0 +1,72 @@
+#corners1 {
+    border-radius: 25px 50px 25px 50px;
+    background: #0288D1;
+    padding: 20px;
+    width: 200px;
+    height: 80px;
+    display: inline-block;
+}
+
+#corners2 {
+    border-radius: 25px;
+    border: 2px solid black;
+    padding: 20px;
+    width: 200px;
+    height: 80px;
+    display: inline-block;
+}
+
+#corners3 {
+    border-radius: 25px;
+    background: url(../img/water.jpg);
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px;
+    width: 200px;
+    height: 80px;
+    display: inline-block;
+}
+
+#borderimg1 {
+    width: 300px;
+    height: 40px;
+    border: 10px solid transparent;
+    padding: 15px;
+    -webkit-border-image: url(../img/bolinhas.jpg) 50 round; /* Safari 3.1-5 */
+    -o-border-image: url(../img/bolinhas.jpg) 50 round; /* Opra 11-12,1 */
+    border-image: url(../img/bolinhas.jpg) 50 round; /* Padrão */
+    display: inline-block;
+}
+
+#borderimg2 {
+    width: 300px;
+    height: 40px;
+    border: 10px solid transparent;
+    padding: 15px;
+    -webkit-border-image: url(../img/bolinhas.jpg) 65 stretch; /* Safari 3.1-5 */
+    -o-border-image: url(../img/bolinhas.jpg) 65 stretch; /* Opra 11-12,1 */
+    border-image: url(../img/bolinhas.jpg) 65 stretch; /* Padrão */
+    display: inline-block;
+}
+
+#borderimg3 {
+    width: 300px;
+    height: 40px;
+    border: 10px solid transparent;
+    padding: 15px;
+    -webkit-border-image: url(../img/quadradinho.jpg) 20% round; /* Safari 3.1-5 */
+    -o-border-image: url(../img/quadradinho.jpg) 20% round; /* Opra 11-12,1 */
+    border-image: url(../img/quadradinho.jpg) 20% round; /* Padrão */
+    display: inline-block;
+}
+
+#borderimg4 {
+    width: 300px;
+    height: 40px;
+    border: 10px solid transparent;
+    padding: 15px;
+    -webkit-border-image: url(../img/quadradinho.jpg) 30% stretch; /* Safari 3.1-5 */
+    -o-border-image: url(../img/quadradinho.jpg) 30% stretch; /* Opra 11-12,1 */
+    border-image: url(../img/quadradinho.jpg) 30% stretch; /* Padrão */
+    display: inline-block;
+}
