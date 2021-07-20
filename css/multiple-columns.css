@@ -1,0 +1,46 @@
+.column1{
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+    padding: 20px;
+    /* faz o tempo ficar divido em colunas */
+}
+
+.column2{
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+    padding: 20px;
+    -webkit-column-gap:10px;
+    -moz-column-gap: 10px;
+    column-gap: 10px;
+    /* alem de ficar divido em colunas tem espaço entre elas */
+}
+.column3{
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+    padding: 20px;
+    -webkit-column-gap:20px;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+    -webkit-column-rule-style: solid;
+    -moz-column-rule-style: solid;
+    column-rule-style: solid;
+
+    -webkit-column-rule-width: 1px;
+    -moz-column-rule-width: 1px;
+    column-rule-width: 1px;
+
+    -webkit-column-rule-color: red;
+    -moz-column-rule-color: red;
+    column-rule-color: red;
+    /* mudando a cor das colunas */
+}
+
+.column-title{
+    -webkit-column-span: all;
+    -moz-column-span: all;
+    column-span: all;
+    /* alterando a onde o titulo irá ficar */
+}
