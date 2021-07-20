@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Angkor&display=swap');
+
+/* 
+    Utilizando fontes e chamando fontes do google, e do proprio windows
+*/
+
+@font-face{
+    font-family: "MyFont";
+    src: url(../font-my-pc/ALEF-REGULAR.TTF);
+}
+
+.font1{
+    font-family: 'Yomogi', cursive;
+}
+
+.font2{
+    font-family: 'Angkor', cursive;
+}
+
+.font3{
+    font-family: 'MyFont';
+}
