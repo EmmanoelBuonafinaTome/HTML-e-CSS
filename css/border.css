@@ -1,32 +1,3 @@
-#corners1 {
-    border-radius: 25px 50px 25px 50px;
-    background: #0288D1;
-    padding: 20px;
-    width: 200px;
-    height: 80px;
-    display: inline-block;
-}
-
-#corners2 {
-    border-radius: 25px;
-    border: 2px solid black;
-    padding: 20px;
-    width: 200px;
-    height: 80px;
-    display: inline-block;
-}
-
-#corners3 {
-    border-radius: 25px;
-    background: url(../img/water.jpg);
-    background-position: left top;
-    background-repeat: repeat;
-    padding: 20px;
-    width: 200px;
-    height: 80px;
-    display: inline-block;
-}
-
 #borderimg1 {
     width: 300px;
     height: 40px;
@@ -35,6 +6,7 @@
     -webkit-border-image: url(../img/bolinhas.jpg) 50 round; /* Safari 3.1-5 */
     -o-border-image: url(../img/bolinhas.jpg) 50 round; /* Opra 11-12,1 */
     border-image: url(../img/bolinhas.jpg) 50 round; /* Padrão */
+    /* isso irá fazer a iamgem se tornar uma borda */
     display: inline-block;
 }
 
@@ -68,37 +40,5 @@
     -webkit-border-image: url(../img/quadradinho.jpg) 30% stretch; /* Safari 3.1-5 */
     -o-border-image: url(../img/quadradinho.jpg) 30% stretch; /* Opra 11-12,1 */
     border-image: url(../img/quadradinho.jpg) 30% stretch; /* Padrão */
-    display: inline-block;
-}
-
-#background1{
-    width: 500px;
-    height: 270px;
-    background-image: url(../img/back2.PNG), url(../img/back3.PNG), url(../img/back1.PNG);
-    background-position: left bottom, right bottom, left top;
-    background-size: 92px, cover, cover;
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    display: inline-block;
-}
-
-#background2{
-    width: 90%;
-    height: 160px;
-    border: 5px solid black;
-    padding: 10px;
-    background-image: url(../img/back2.PNG);
-    background-size: 52px;
-    background-repeat: no-repeat;
-    background-origin: border-box; /* border-box padding-box content-box */
-    display: inline-block;
-}
-
-#background3{
-    width: 300px;
-    height: 160px;
-    border: 10px dotted black;
-    padding: 35px;
-    background: rgb(107, 167, 163);
-    background-clip: border-box; /* border-box padding-box content-box */
     display: inline-block;
 }
